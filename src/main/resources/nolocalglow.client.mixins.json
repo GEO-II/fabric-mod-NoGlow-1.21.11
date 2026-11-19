@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.nolocalglow.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "refmap": "NoLocalGlow-refmap.json",
+  "client": [
+    "EntityMixin",
+    "LivingEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
